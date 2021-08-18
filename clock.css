@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vh;
+    height: 100%;
+    background-color: #009ee7;
+}
+
+.time-box {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 500px;
+    background: url(./a.png) no-repeat center rgba(255, 255, 255, 1);
+    border: 20px solid white;
+    box-shadow: inset 0 0 30px rgba(0, 0, 0, .1),
+        0 20px 20px rgba(0, 0, 0, .2),
+        0 0 0 4px rgba(255, 255, 255, 1);
+    border-radius: 50%;
+}
+
+.time-box li {
+    position: absolute;
+    left: 50%;
+    list-style: none;
+    width: 2px;
+    height: 20px;
+    background-color: #000;
+    transform-origin: center 250px;
+    font-size: 30px;
+
+}
+
+.box1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 20px;
+}
+
+.radios {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 20px;
+    height: 20px;
+    background-color: #000;
+    border-radius: 50%;
+}
+
+.hours {
+    width: 6px;
+    height: 60px;
+    background-color: #000;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    border-radius: 35%;
+    transform: translate(-50%, -100%);
+    transform-origin: center bottom;
+
+}
+
+.minutes {
+    width: 5px;
+    height: 100px;
+    background-color: #000;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    border-radius: 35%;
+    transform: translate(-50%, -100%);
+    transform-origin: center bottom;
+
+
+}
+
+.seconds {
+    width: 2px;
+    height: 150px;
+    background-color: #000;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    border-radius: 50%;
+    transform: translate(-50%, -100%);
+    transform-origin: center bottom;
+
+}
